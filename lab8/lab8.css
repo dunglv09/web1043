@@ -1,0 +1,51 @@
+.video-container {
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+video {
+	width: 100%;
+    
+}
+
+.controls {
+	margin-top: 10px;
+    
+}
+
+button {
+	padding: 10px;
+	background-color: darkgray;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+    border-radius: 50px;
+}
+
+button:hover {
+	background-color: red;
+}
+
+button.play {
+	background-color: darkgray;
+}
+
+button.play:hover {
+	background-color: red;
+}
+
+button.active {
+	background-color: darkgray;
+
+}
+
+button.active:hover {
+	background-color: #d32f2f;
+}
+
+input[type="range"] {
+	margin-left: 10px;
+}
