@@ -75,10 +75,10 @@ input[type=text]:focus, input[type=email]:focus {
 
     <label for="username"><b>Username:</b></label>
     <input type="text" id="name" placeholder="name" name="username">
-    <label for="psw"><b>Email</b></label>
-    <input type="email" id="email" placeholder="Enter email" name="psw">
     <label for="sdt"> SDT: </label>
     <input type="tel" id="sdt" placeholder="nhập sdt" ><br>
+    <label for="psw"><b>Email</b></label>
+    <input type="email" id="email" placeholder="Enter email" name="psw">
     <button type="submit" onclick="send()" class="btn">Login</button>
   </form>
 </div>
@@ -91,11 +91,6 @@ input[type=text]:focus, input[type=email]:focus {
     if(name == "" || email == "" || sdt == ""){
         alert("vui lòng nhập đầy đủ thông tin");
         return;
-    }
-    if(isNaN(sdt)){
-        alert("vui lòng chỉ nhập số!");
-        return;
-    
     }
 }
 </script>
