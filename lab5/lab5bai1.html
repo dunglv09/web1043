@@ -5,37 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="lab5bai1.css">
+    <title>TODO LIST</title>
 </head>
-
+<link rel="stylesheet" href="lab5bai1.css">
 <body>
-    <center>
-        <h1>CHƯƠNG TRÌNH MENU</h1>
-    </center>
-    <marquee>chào mừng bạn đến với dịch vụ của dũng!!</marquee>
-    <div class="form">
-        <div class="form1">
-            tên task
-            <br><input type="text" id="con1">
+    <script src="lab5.js"></script>
+    <div class="wrapper">
+        <span class="title">TODO LIST</span>
+        <label for="">Task Name:</label>
+        <input type="text" name="task-name" id="task-name" placeholder="Enter task name">
+        <label for="" class="description">Description:</label>
+        <textarea name="task-description" id="task-description" cols="30" rows="10"
+            placeholder="Enter description of the task"></textarea>
+        <div class="buttonrow">
+            <button id="btnAdd" class="btn btn-disabled" disabled="true">Add</button>
         </div>
-        <br>
-        <div class="form2">
-            mô tả
-            <br><textarea></textarea>
-        </div>
-        <br>
-        <div id="add">
-            <p class="nd1">
-                ADD
-            </p>
-        </div>
-    </div>
-    <br>
-
-    <div>
-       <h5>Task List:</h5>
-        <hr width="50%" height="10px">
+        <h5>Tasks List:</h5>
         <section id="task-list">
             <div class="row">
                 <div class="name">Name</div>
